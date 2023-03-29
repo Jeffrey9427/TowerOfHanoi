@@ -16,7 +16,31 @@ The objective of the puzzle is to move the entire stack of disks from the starti
 
 To run the program, simply execute the `Main.java` file. The program will prompt you to enter the number of the disks you wish to use, and then it will display the steps necessary to solve the puzzle. Example of the program testing with the number of disks inputted is 3. 
 
-![Screen Shot 2023-03-29 at 20.56.12](/Users/jeff2709/Library/Application Support/typora-user-images/Screen Shot 2023-03-29 at 20.56.12.png)
+```
+Tower of Hanoi
+Enter number of disks: 3
+
+Recursive Approach
+Move disk 1 from peg L to peg R
+Move disk 2 from peg L to peg M
+Move disk 1 from peg R to peg M
+Move disk 3 from peg L to peg R
+Move disk 1 from peg M to peg L
+Move disk 2 from peg M to peg R
+Move disk 1 from peg L to peg R
+
+Recursive function - run time = 22.0 ms.
+
+Iterative Approach
+Move disk 1 from L to R
+Move disk 2 from L to M
+Move disk 1 from R to M
+Move disk 3 from L to R
+Move disk 1 from M to L
+Move disk 2 from M to R
+Move disk 1 from L to R
+Iterative function - run time = 6.0 ms.
+```
 
 
 
